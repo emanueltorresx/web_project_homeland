@@ -1,0 +1,13 @@
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 104.94px 0 0;
+}
+
+.footer__creditos {
+  font-family: "inter-regular", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0;
+}

@@ -1,0 +1,31 @@
+.lead {
+  width: 984px;
+  height: 983px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lead__title {
+  width: 720px;
+  height: 200px;
+  font-family: "inter-black", sans-serif;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  margin: 0;
+}
+
+.lead__text {
+  font-family: "inter-regular", sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  margin: 32px 0 0;
+}
+
+.lead__image {
+  width: 984px;
+  height: 615px;
+  margin-top: 64px;
+}

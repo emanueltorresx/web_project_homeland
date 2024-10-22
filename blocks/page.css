@@ -1,9 +1,21 @@
 .page {
-  width: 1280px;
-  height: 2008px;
+  max-width: 1280px;
+  max-height: 2008px;
   background-color: #2a2c2f;
   color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    max-width: 320px;
+  }
 }

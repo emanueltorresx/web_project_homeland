@@ -2,10 +2,32 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 34px;
+  padding-top: 34px;
 }
 
 .header__logo {
-  width: 254.84px;
+  width: 100%;
+  max-width: 255px;
   height: 68.94px;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding-top: 30px;
+  }
+  .header__logo {
+    width: 100%;
+    max-width: 254px;
+  }
+}
+/*
+@media screen and (max-width: 320px) {
+  .header {
+    width: 100%;
+    padding-top: 20px;
+  }
+  .header__logo {
+    width: 100%;
+    max-width: 188px;
+  }
 }

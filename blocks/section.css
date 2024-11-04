@@ -1,17 +1,17 @@
-.content {
+.section {
   max-width: 984px;
   width: 100%;
   margin: auto;
 }
 
 @media screen and (max-width: 768px) {
-  .content {
+  .section {
     max-width: 768px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .content {
+  .section {
     max-width: 288px;
   }
 }

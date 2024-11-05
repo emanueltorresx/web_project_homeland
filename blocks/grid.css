@@ -7,4 +7,18 @@
 }
 
 .grid__item {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .grid {
+    grid-template-columns: 1fr;
+    row-gap: 12px;
+  }
 }
